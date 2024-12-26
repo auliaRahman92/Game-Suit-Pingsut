@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.title {
+    text-align: center;
+}
+#app {
+    height: 100vh;
+    
+}
+.summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid blanchedalmond;
+    width: 400px;
+    height: 400px;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 30%;
+    margin: 10px 25px;
+    padding: 25px;
+    background-color: rgb(233, 208, 178);
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.option:hover {
+    background-color: bisque;
+    scale: 1.1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
